@@ -1,0 +1,262 @@
+body{
+    background-color: #f5f5f5;
+    margin: 0%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+
+}
+#imagehaut{
+    width: 100%;
+    height: 56px;
+    background: #FF9A00;
+    display: flex;
+    justify-content: center;
+    margin: 0%;
+    
+}
+#inter{
+    width: 1184px;
+    height: 32px;
+    background-color:#f5f5f5;
+}
+#img1{
+    width: 1184px;
+    height: 56px;
+    
+   
+}
+#bareDeRecherche{
+    background-color:white;
+    width: 100%;
+    height: 76px;
+    display: flex;
+}
+#centrer{
+    background-color: #f5f5f5;
+    width: 1184px;
+    height: 392px;
+    padding: 0px,8px,8px;
+    display: flex;
+    justify-content: center;
+   /*  margin-left: 322px; */
+   margin-top: 15px;
+}
+#milieu1{
+background-color: white;
+width: 206px;
+height: 384px;
+margin-right: 24px;
+}
+#milieu2{
+background-color: white;
+width: 712px;
+height: 384px;
+}
+#milieu3{
+    background-color:#f5f5f5;
+    width: 218px;
+    height: 384px;
+    margin-left: 24px;
+    display: flex;
+    flex-wrap: wrap;
+}
+#pub1{
+    width: 218px;
+    height: 184px;
+    background-color: white;
+   justify-content: center; 
+}
+#pub2{
+    width: 218px;
+    height: 184px;
+    background-color: white;
+   justify-content: center; 
+   background-image: url("image jm/SN_W34_10K_218x184.gif");
+}
+.centre{
+    display: flex;
+    justify-content: center;
+}
+#thisouf{
+    width: 1184px;
+    height: 157px;
+    background-color: white;
+
+    margin-top: 10px;
+}
+.elementaire{
+    font-size: 14px;
+    font-style: robotto;
+    margin-bottom: 15px;
+    margin-left: 7px;
+}
+.element{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+   
+}
+.dfert{
+    align-content: center;
+    display: flex;
+    margin-bottom: -13px;
+    margin-left: 4px;
+  
+}
+.dfert:hover{
+    color: #FF9A00;
+}
+#logoJumia{
+    width: 145px;
+    height: 75px;
+   
+  
+}
+#searchimg{
+    width: 24px;
+    height: 24px; 
+    margin-top: 10px; 
+    margin-left: 3px;
+}
+#searcherrea{
+    display: flex;
+    border: solid 0.5px gray;
+    border-radius: 5px;
+    margin-left: 75px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+}
+#inputsearch{
+    margin-top: 0px;
+    width: 398px;
+    height: 38px;
+    border: none;
+    font-size: 16px;
+    color: grey;
+    border: #f5f5f5;
+
+    
+}
+#inputdiv{
+    border: none;
+}
+#rechercbuton{
+    width: 131px;
+    height: 44px;
+    background-color: #FF9A00;
+    color: #ffffff;
+    margin-top: 15px;
+    margin-left: 10px;
+    border: none;
+    border-radius: 5px;
+}
+#giff{
+   
+    width: 218px;
+    height: 184;
+
+}
+#slider {
+   width: 712px;
+height: 384px;
+   
+}
+
+
+
+#slider:hover #precedent,
+#slider:hover #suivant {
+    opacity: 1;
+}
+#thisouf{
+    display: flex;
+    overflow: hidden;
+}
+.bloc8{
+    background-color: #FF9A00;
+    height: 125px;
+    width: 125px;
+    margin: 10px;
+    border-radius: 25px;
+    margin-left: 15px;
+    position: relative;
+  
+}
+.bloc8:not(:last-child){
+    margin-right: 1px;
+}
+#slide8{
+    height: 125px;
+    width: 125px;
+    
+    border-radius: 25px;
+}
+.img24{
+    width: 24px;
+    height: 24px;
+    margin-top: 15px;
+}
+#iconeseconnecter{
+    display: flex;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+#conect{
+    margin-left: 10px;
+    font-size: 20px;
+}
+.pub1A{
+display: flex;
+width: 186px;
+height: 34px;
+padding: 15px;
+}
+.img4{
+height: 34px;
+width: 34px;
+}
+#thikaw{
+
+
+}
+.textpub1{
+    margin-left: 10px;
+
+}
+.textpub2{
+    margin-left: 10px;
+}
+.navmanu{
+    position: absolute;
+    width: 800px;
+    margin-top: -40px;
+    display: flex;
+    justify-content: center;
+
+}
+.butman{
+    border: 0px solid ;
+    padding: 5px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 1s;
+    background: #c7c7cd;
+}
+.butman:not(:last-child){
+    margin-right: 10px;
+}
+.butman:hover{
+    background: #FF9A00;
+}
+.radiob input{
+    display: none;
+
+}
+.navauto{
+    background-color: #FF9A00;
+    width: 52px;
+    height: 100px;
+    position: fixed;
+}
