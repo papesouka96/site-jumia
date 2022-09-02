@@ -235,11 +235,7 @@ padding: 15px;
 height: 34px;
 width: 34px;
 }
-#thikaw{
-
-
-}
-.textpub1{
+xtpub1{
     margin-left: 10px;
 
 }
@@ -309,4 +305,8 @@ right: 300px;
 .pre-btn:hover img,
 .nxt-btn:hover img {
   opacity: 1;
+}
+.opton{
+    border: none;
+    background-color: white;
 }
