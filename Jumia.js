@@ -9,8 +9,7 @@ function ChangeSlide(sens) {
         numero = 0;
     document.getElementById("slide").src = slide[numero];
 }setInterval("ChangeSlide(1)", 4000);
-
-
+ console.log( ChangeSlide(1) );
 
 const productContainers = [...document.querySelectorAll('.hide')];
 const nxtBtn = [...document.querySelectorAll('.nxt-btn')];
@@ -22,9 +21,10 @@ productContainers.forEach((item, i) => {
 
     nxtBtn[i].addEventListener('click', () => {
         item.scrollLeft += containerWidth;
+        item.scrollBy({top:0,left:containerWidth, behavior: "smooth"})
     })
 
     preBtn[i].addEventListener('click', () => {
-        item.scrollLeft -= containerWidth;
+        item.scrollBy({top:0,left:-containerWidth, behavior: "smooth"})
     })
 })
